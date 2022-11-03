@@ -1,5 +1,5 @@
 import { FC, useState } from 'react';
-import {DragDropContext} from 'react-beautiful-dnd';
+import { DragDropContext } from 'react-beautiful-dnd';
 import dummyData from '../dummyData';
 
 const Main: FC = () => {
