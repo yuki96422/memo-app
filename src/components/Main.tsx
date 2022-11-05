@@ -4,8 +4,9 @@ import dummyData from '../dummyData';
 
 const Main: FC = () => {
   const [data,setData] = useState(dummyData)
+  
   return (
-      <DragDropContext>
+      <DragDropContext onDragEnd={onDragEnd}>
         <div className='trello'>
           {data.map(section => (
             <>

@@ -10,8 +10,10 @@ module.exports = {
     sourceType: 'module',
     project: 'tsconfig.json',
   },
-  plugins: ['react', '@typescript-eslint/parser'],
+  parser: ['@typescript-eslint/parser'],
+  plugins: ['react', '@typescript-eslint'],
   rules: {
-    '@typescript-eslint/semi': 'off'
+    semi: 'off',
+    '@typescript-eslint/semi': 'off',
   },
 };
