@@ -3,8 +3,10 @@ import { DragDropContext } from 'react-beautiful-dnd';
 import dummyData from '../dummyData';
 
 const Main: FC = () => {
-  const [data,setData] = useState(dummyData)
-  
+  const [data, setData] = useState(dummyData)
+  const onDragEnd = () => {
+    setData()
+  }
   return (
       <DragDropContext onDragEnd={onDragEnd}>
         <div className='trello'>
