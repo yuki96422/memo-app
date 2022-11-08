@@ -10,7 +10,6 @@ module.exports = {
     sourceType: 'module',
     project: 'tsconfig.json',
   },
- ignores: ['tsconfig.json'],
   plugins: ['react', '@typescript-eslint'],
   rules: {
     semi: 'off',
