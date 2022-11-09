@@ -6,8 +6,9 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:standard-with-typescript',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    'prettier',
+    'prettier/@typescript-eslint',
   ],
   overrides: [],
   parserOptions: {
@@ -20,5 +21,6 @@ module.exports = {
   rules: {
     semi: 'off',
     '@typescript-eslint/semi': 'off',
+    'no-undef': 'off',
   },
 };
