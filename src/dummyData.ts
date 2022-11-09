@@ -7,8 +7,8 @@ const dummyData = [
     tasks: [
       { id: uuidv4(), title: 'react' },
       { id: uuidv4(), title: 'react' },
-      { id: uuidv4(), title: 'react' },
-    ],
+      { id: uuidv4(), title: 'react' }
+    ]
   },
   {
     id: uuidv4(),
@@ -16,8 +16,8 @@ const dummyData = [
     tasks: [
       { id: uuidv4(), title: 'react' },
       { id: uuidv4(), title: 'react' },
-      { id: uuidv4(), title: 'react' },
-    ],
+      { id: uuidv4(), title: 'react' }
+    ]
   },
   {
     id: uuidv4(),
@@ -25,9 +25,9 @@ const dummyData = [
     tasks: [
       { id: uuidv4(), title: 'react' },
       { id: uuidv4(), title: 'react' },
-      { id: uuidv4(), title: 'react' },
-    ],
-  },
+      { id: uuidv4(), title: 'react' }
+    ]
+  }
 ];
 
 export default dummyData;
