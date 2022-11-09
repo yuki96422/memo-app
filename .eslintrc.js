@@ -21,6 +21,7 @@ module.exports = {
   rules: {
     semi: 'off',
     '@typescript-eslint/semi': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
     'no-undef': 'off',
   },
 };
