@@ -1,11 +1,11 @@
-import { FC, useState } from 'react';
+import { useState } from 'react';
 import { DragDropContext } from 'react-beautiful-dnd';
 import dummyData from '../dummyData';
 
-const Main: FC = () => {
+const Main: React.FC = () => {
   const [data, setData] = useState(dummyData)
   const onDragEnd = () => {
-    setData()
+    setData(data)
   }
   return (
       <DragDropContext onDragEnd={onDragEnd}>
